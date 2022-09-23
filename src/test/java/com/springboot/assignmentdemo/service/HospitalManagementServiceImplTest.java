@@ -57,7 +57,6 @@ class HospitalManagementServiceImplTest {
        hospital.saveCustomer(customer);
        verify(customerRepository).save(customer);
     }
-
     @Test
     void deleteCustomerById() {
         hospital.deleteCustomerById(30);
